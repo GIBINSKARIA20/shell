@@ -1,4 +1,4 @@
-cho "Enter the Number" 
+echo "Enter the Number" 
 read n
  r=`expr $n % 2`
  if [ $r -eq 0 ] 
